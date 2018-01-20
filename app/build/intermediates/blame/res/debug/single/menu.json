@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/apple/Documents/StudentsViewer/app/build/intermediates/res/merged/debug/menu/menu_option.xml",
+        "source": "/Users/apple/Documents/StudentsViewer/app/src/main/res/menu/menu_option.xml"
+    },
+    {
+        "merged": "/Users/apple/Documents/StudentsViewer/app/build/intermediates/res/merged/debug/menu/context_menu.xml",
+        "source": "/Users/apple/Documents/StudentsViewer/app/src/main/res/menu/context_menu.xml"
+    }
+]
