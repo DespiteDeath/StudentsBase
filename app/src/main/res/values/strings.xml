@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, SimpleDBActivity!</string>
+    <string name="app_name">StudentsBase</string>
+    
+    <string name="name_group">Название группы</string>
+    <string name="name_department">Факультет</string>
+    
+    <string name="name_first">Фамилия</string>
+    <string name="name_second">Имя</string>
+	<string name="name_third">Отчество</string>    
+	<string name="date_birth">Дата рождения</string>
+    
+    <string name="save">Сохранить</string>
+    <string name="edit">Редактировать</string>
+    <string name="delete">Удалить</string>
+    <string name="cancel">Отмена</string>
+    <string name="icon">Icon</string>
+    <string name="deleteAll">ГруппыСтуденты</string>
+    <string name="exit">Выход</string>
+    <string name="addGroup">Добавить группу</string>
+    <string name="addStudent">Добавить студента</string>
+   
+</resources>

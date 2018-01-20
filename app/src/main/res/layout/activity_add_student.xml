@@ -1,0 +1,110 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/buttons"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btnSaveStudent"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/save" />
+
+        <Button
+            android:id="@+id/btnCancelStudent"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/cancel" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@id/buttons"
+        android:fillViewport="true" >
+           
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Добавление студента:"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            style="@style/TextStyle"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:text="@string/name_first" />
+
+        <EditText
+            android:id="@+id/etNameFirst"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text" />
+
+        <TextView
+            style="@style/TextStyle"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:text="@string/name_second" />
+
+        <EditText
+            android:id="@+id/etNameSecond"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text" />
+
+        <TextView
+            style="@style/TextStyle"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:text="@string/name_third" />
+
+        <EditText
+            android:id="@+id/etNameThird"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text" />
+
+        <TextView
+            style="@style/TextStyle"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:text="@string/date_birth" />
+
+        <EditText
+            android:id="@+id/etDateBirth"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text" />
+
+        <TextView
+            style="@style/TextStyle"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:text="@string/name_group" />
+
+        <Spinner
+            android:id="@+id/spGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</RelativeLayout>
